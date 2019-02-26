@@ -22,7 +22,7 @@ public class HelloJenkinsController {
         log.info("HelloJenkinsController.printHelloJenkins =========== hello,Jenkins debugging at first line! =========== ");
         log.info("HelloJenkinsController.printHelloJenkins =========== hello,Jenkins debugging at second line! =========== ");
 
-        return "hello,Jenkins";
+        return "hello,Jenkins 20190226131106";
     }
 
 }
