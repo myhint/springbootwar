@@ -19,7 +19,8 @@ public class HelloJenkinsController {
     @GetMapping
     public String printHelloJenkins() {
 
-        log.info("HelloJenkinsController.printHelloJenkins =========== hello,Jenkins debugging! =========== ");
+        log.info("HelloJenkinsController.printHelloJenkins =========== hello,Jenkins debugging at first line! =========== ");
+        log.info("HelloJenkinsController.printHelloJenkins =========== hello,Jenkins debugging at second line! =========== ");
 
         return "hello,Jenkins";
     }
