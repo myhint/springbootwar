@@ -17,7 +17,7 @@ public class HelloJenkinsController {
     @GetMapping
     public String printHelloJenkins() {
 
-        return "hello,Jenkins :first time!";
+        return "hello,Jenkins : second time!";
     }
 
 }
